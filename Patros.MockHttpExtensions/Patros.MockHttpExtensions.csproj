@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Product>Patros.MockHttpExtensions</Product>
+    <Authors>Patrick Dwyer</Authors>
+    <Company></Company>
   </PropertyGroup>
 
   <ItemGroup>
