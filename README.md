@@ -1,6 +1,4 @@
-[![NuGet](http://img.shields.io/nuget/v/Patros.MockHttpExtensions.svg?style=flat-square)](https://www.nuget.org/packages/Patros.MockHttpExtensions/)
-
-![Build status](https://patros.visualstudio.com/_apis/public/build/definitions/aeeb85d1-1700-4998-aceb-007132d507d1/10/badge)
+`Patros.MockHttpExtensions` current version [![NuGet](http://img.shields.io/nuget/v/Patros.MockHttpExtensions.svg?style=flat-square)](https://www.nuget.org/packages/Patros.MockHttpExtensions/)
 
 # MockHttp Extensions
 
