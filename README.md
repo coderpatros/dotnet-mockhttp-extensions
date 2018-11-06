@@ -4,7 +4,7 @@
 
 This library is a small collection of extension methods for Richard Szalay's
 excellent [MockHttp](https://github.com/richardszalay/mockhttp). It targets
-.net standard 2.0 (although in theory could target 1.1 if required) and is
+.net standard 2.0 and is
 available via nuget as `Patros.MockHttpExtensions`
 
 Currently it only contains extensions for verifying the correct content type
