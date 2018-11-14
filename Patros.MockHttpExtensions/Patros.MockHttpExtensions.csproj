@@ -5,6 +5,11 @@
     <Product>Patros.MockHttpExtensions</Product>
     <Authors>Patrick Dwyer</Authors>
     <Company></Company>
+    <Company></Company>
+    <Description>This library is a small collection of extension methods for Richard Szalay's
+excellent MockHttp.</Description>
+    <ProjectUrl>https://github.com/patros/mockhttp-extensions</ProjectUrl>
+    <LicenseUrl>https://github.com/patros/mockhttp-extensions/blob/master/LICENSE</LicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
