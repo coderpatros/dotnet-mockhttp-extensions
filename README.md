@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://dev.azure.com/patros/OpenSource/_apis/build/status/Patros.MockHttpExtensions?branchName=master)](https://dev.azure.com/patros/OpenSource/_build/latest?definitionId=16&branchName=master)
-![Azure DevOps tests](https://img.shields.io/azure-devops/tests/patros/OpenSource/16.svg)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/patros/OpenSource/16.svg)
+[![Build Status](https://dev.azure.com/coderpatros/OpenSource/_apis/build/status/Patros.MockHttpExtensions?branchName=master)](https://dev.azure.com/coderpatros/OpenSource/_build/latest?definitionId=16&branchName=master)
+![Azure DevOps tests](https://img.shields.io/azure-devops/tests/coderpatros/OpenSource/16.svg)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/coderpatros/OpenSource/16.svg)
 [![NuGet](https://img.shields.io/nuget/v/Patros.MockHttpExtensions.svg?style=flat-square)](https://www.nuget.org/packages/Patros.MockHttpExtensions/)
 ![Nuget](https://img.shields.io/nuget/dt/Patros.MockHttpExtensions.svg)
 
