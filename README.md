@@ -16,7 +16,7 @@ available via nuget as `Patros.MockHttpExtensions`
 Currently it only contains extensions for verifying the correct content type
 and some json helpers.
 
-### Extension Methods
+## Extension Methods
 
     .WithContent(string contentType, string content)
     .WithJsonContent(string json)

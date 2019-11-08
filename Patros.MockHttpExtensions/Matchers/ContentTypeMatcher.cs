@@ -5,7 +5,7 @@ namespace Patros.MockHttpExtensions.Matchers
 {
     public class ContentTypeMatcher : IMockedRequestMatcher
     {
-        private string _expectedContentType;
+        private readonly string _expectedContentType;
 
         public ContentTypeMatcher(string contentType)
         {
