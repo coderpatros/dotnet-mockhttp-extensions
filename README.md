@@ -21,7 +21,3 @@ and some json helpers.
     .WithContent(string contentType, string content)
     .WithJsonContent(string json)
     .WithJsonContent(object obj)
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-mockhttp-extensions.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-mockhttp-extensions?ref=badge_large)
