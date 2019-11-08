@@ -4,6 +4,7 @@
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/coderpatros/OpenSource/16.svg)
 [![NuGet](https://img.shields.io/nuget/v/Patros.MockHttpExtensions.svg?style=flat-square)](https://www.nuget.org/packages/Patros.MockHttpExtensions/)
 ![Nuget](https://img.shields.io/nuget/dt/Patros.MockHttpExtensions.svg)
+[![CodeFactor](https://www.codefactor.io/repository/github/coderpatros/dotnet-mockhttp-extensions/badge)](https://www.codefactor.io/repository/github/coderpatros/dotnet-mockhttp-extensions)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-mockhttp-extensions.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-mockhttp-extensions?ref=badge_shield)
 
 # MockHttp Extensions
