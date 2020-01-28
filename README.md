@@ -7,6 +7,7 @@
 ![Nuget](https://img.shields.io/nuget/dt/CoderPatros.MockHttpExtensions.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-mockhttp-extensions.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-mockhttp-extensions?ref=badge_shield)
+![Twitter Follow](https://img.shields.io/twitter/follow/coderpatros?style=social)
 
 # MockHttp Extensions
 
