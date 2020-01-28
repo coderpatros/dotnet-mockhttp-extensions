@@ -1,8 +1,8 @@
 using System;
 using RichardSzalay.MockHttp;
-using Patros.MockHttpExtensions.Matchers;
+using CoderPatros.MockHttpExtensions.Matchers;
 
-namespace Patros.MockHttpExtensions.ContentTypeExtensions
+namespace CoderPatros.MockHttpExtensions.ContentTypeExtensions
 {
     public static class ContentTypeExtensions
     {

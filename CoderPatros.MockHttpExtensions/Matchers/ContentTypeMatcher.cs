@@ -1,7 +1,7 @@
 using System.Net.Http;
 using RichardSzalay.MockHttp;
 
-namespace Patros.MockHttpExtensions.Matchers
+namespace CoderPatros.MockHttpExtensions.Matchers
 {
     public class ContentTypeMatcher : IMockedRequestMatcher
     {

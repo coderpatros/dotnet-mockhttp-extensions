@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Patros.MockHttpExtensions.Tests/Patros.MockHttpExtensions.Tests.csproj"
+                "${workspaceFolder}/CoderPatros.MockHttpExtensions.Tests/CoderPatros.MockHttpExtensions.Tests.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

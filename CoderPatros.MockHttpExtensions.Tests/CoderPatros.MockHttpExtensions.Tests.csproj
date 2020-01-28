@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Patros.MockHttpExtensions\Patros.MockHttpExtensions.csproj" />
+    <ProjectReference Include="..\CoderPatros.MockHttpExtensions\CoderPatros.MockHttpExtensions.csproj" />
   </ItemGroup>
 
 </Project>

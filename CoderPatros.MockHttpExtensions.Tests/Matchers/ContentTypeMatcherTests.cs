@@ -7,9 +7,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 using RichardSzalay.MockHttp;
-using Patros.MockHttpExtensions.Matchers;
+using CoderPatros.MockHttpExtensions.Matchers;
 
-namespace Patros.MockHttpExtensions.Tests.ContentTypeMatcherTests
+namespace CoderPatros.MockHttpExtensions.Tests.ContentTypeMatcherTests
 {
     public class ContentTypeMatcherTests
     {

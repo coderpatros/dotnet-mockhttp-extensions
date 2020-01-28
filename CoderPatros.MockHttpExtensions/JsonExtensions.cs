@@ -1,9 +1,9 @@
 ﻿using System;
 using RichardSzalay.MockHttp;
 using Newtonsoft.Json;
-using Patros.MockHttpExtensions.ContentTypeExtensions;
+using CoderPatros.MockHttpExtensions.ContentTypeExtensions;
 
-namespace Patros.MockHttpExtensions.JsonExtensions
+namespace CoderPatros.MockHttpExtensions.JsonExtensions
 {
     public static class JsonExtensions
     {
