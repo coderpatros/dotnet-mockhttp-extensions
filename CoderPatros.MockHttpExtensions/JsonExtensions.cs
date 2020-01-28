@@ -1,6 +1,6 @@
 ﻿using System;
+using System.Text.Json;
 using RichardSzalay.MockHttp;
-using Newtonsoft.Json;
 using CoderPatros.MockHttpExtensions.ContentTypeExtensions;
 
 namespace CoderPatros.MockHttpExtensions.JsonExtensions
@@ -15,7 +15,7 @@ namespace CoderPatros.MockHttpExtensions.JsonExtensions
 
         public static MockedRequest WithJsonSerializedContent(this MockedRequest handler, object obj)
         {
-            handler.WithContent("application/json", JsonConvert.SerializeObject(obj));
+            handler.WithContent("application/json", JsonSerializer.Serialize(obj));
             return handler;
         }
     }
