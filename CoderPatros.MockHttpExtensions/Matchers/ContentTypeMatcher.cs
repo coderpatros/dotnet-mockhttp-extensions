@@ -1,3 +1,5 @@
+using System;
+using System.Diagnostics.Contracts;
 using System.Net.Http;
 using RichardSzalay.MockHttp;
 
@@ -14,6 +16,7 @@ namespace CoderPatros.MockHttpExtensions.Matchers
 
         public bool Matches(HttpRequestMessage message)
         {
+            Contract.Requires(message != null);
             var msgContentType = message.Content.Headers.ContentType.ToString();
             if (_expectedContentType.Contains(";"))
             {
@@ -22,7 +25,7 @@ namespace CoderPatros.MockHttpExtensions.Matchers
             else
             {
                 return msgContentType == _expectedContentType
-                    || msgContentType.StartsWith(_expectedContentType + ";");
+                    || msgContentType.StartsWith(_expectedContentType + ";", StringComparison.InvariantCulture);
             }
         }
     }
