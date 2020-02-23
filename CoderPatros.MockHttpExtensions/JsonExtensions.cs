@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Text.Json;
 using RichardSzalay.MockHttp;
-using CoderPatros.MockHttpExtensions.ContentTypeExtensions;
 
-namespace CoderPatros.MockHttpExtensions.JsonExtensions
+namespace CoderPatros.MockHttpExtensions
 {
     public static class JsonExtensions
     {
-        public static MockedRequest WithJsonContent(this MockedRequest handler, string json)
+        public static MockedRequest WithJsonContent(this MockedRequest handler, string content)
         {
-            handler.WithContent("application/json", json);
+            handler.WithContent("application/json", content);
             return handler;
         }
 
-        public static MockedRequest WithJsonSerializedContent(this MockedRequest handler, object obj)
+        public static MockedRequest WithJsonSerializedContent(this MockedRequest handler, object content)
         {
-            handler.WithContent("application/json", JsonSerializer.Serialize(obj));
+            handler.WithContent("application/json", JsonSerializer.Serialize(content));
             return handler;
         }
     }
