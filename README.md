@@ -1,12 +1,7 @@
-[![Build Status](https://dev.azure.com/coderpatros/OpenSource/_apis/build/status/CoderPatros.MockHttpExtensions?branchName=master)](https://dev.azure.com/coderpatros/OpenSource/_build/latest?definitionId=16&branchName=master)
-![Azure DevOps tests](https://img.shields.io/azure-devops/tests/coderpatros/OpenSource/16.svg)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/coderpatros/OpenSource/16.svg)
-[![CodeFactor](https://www.codefactor.io/repository/github/coderpatros/dotnet-mockhttp-extensions/badge)](https://www.codefactor.io/repository/github/coderpatros/dotnet-mockhttp-extensions)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/152d264f1e2f490c898b7dde0a5c7956)](https://www.codacy.com/manual/coderpatros/dotnet-mockhttp-extensions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=coderpatros/dotnet-mockhttp-extensions&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://github.com/coderpatros/dotnet-mockhttp-extensions/workflows/.NET%20Core%20CI/badge.svg)](https://github.com/coderpatros/dotnet-mockhttp-extensions/actions?workflow=.NET+Core+CI)
 [![NuGet](https://img.shields.io/nuget/v/CoderPatros.MockHttpExtensions.svg?style=flat-square)](https://www.nuget.org/packages/CoderPatros.MockHttpExtensions/)
 ![Nuget](https://img.shields.io/nuget/dt/CoderPatros.MockHttpExtensions.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-mockhttp-extensions.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-mockhttp-extensions?ref=badge_shield)
 ![Twitter Follow](https://img.shields.io/twitter/follow/coderpatros?style=social)
 
 # MockHttp Extensions
