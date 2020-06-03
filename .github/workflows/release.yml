@@ -37,11 +37,11 @@ jobs:
           dotnet CycloneDX --out ./ ./mockhttp-extensions.sln
           dotnet CycloneDX --json --out ./ ./mockhttp-extensions.sln
 
-    #   - name: Publish package
-    #     env:
-    #       NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-    #     run: |
-    #       dotnet nuget push --source https://api.nuget.org/v3/index.json --api-key "$NUGET_API_KEY" ${{ steps.package_release.outputs.package_filename }}
+      - name: Publish package
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+        run: |
+          dotnet nuget push --source https://api.nuget.org/v3/index.json --api-key "$NUGET_API_KEY" ${{ steps.package_release.outputs.package_filename }}
 
       - name: Create github release
         id: create_release
