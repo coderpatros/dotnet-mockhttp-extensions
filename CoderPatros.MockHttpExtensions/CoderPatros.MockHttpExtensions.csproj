@@ -9,6 +9,7 @@
 excellent MockHttp.</Description>
     <ProjectUrl>https://github.com/CoderPatros/mockhttp-extensions</ProjectUrl>
     <LicenseUrl>https://github.com/CoderPatros/mockhttp-extensions/blob/master/LICENSE</LicenseUrl>
+    <PackageVersion>$(VersionSuffix)</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
