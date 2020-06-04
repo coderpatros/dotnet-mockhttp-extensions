@@ -8,7 +8,7 @@
     <Description>This library is a small collection of extension methods for Richard Szalay's
 excellent MockHttp.</Description>
     <ProjectUrl>https://github.com/CoderPatros/mockhttp-extensions</ProjectUrl>
-    <LicenseUrl>https://github.com/CoderPatros/mockhttp-extensions/blob/master/LICENSE</LicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageVersion>$(VersionSuffix)</PackageVersion>
   </PropertyGroup>
 
