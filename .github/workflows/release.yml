@@ -30,12 +30,6 @@ jobs:
           dotnet build --configuration Release
           dotnet pack --configuration Release --version-suffix $VERSION --output ./
 
-      - name: Generate SBOMs
-        run: |
-          dotnet tool install --global CycloneDX
-          dotnet CycloneDX --out ./ ./mockhttp-extensions.sln
-          dotnet CycloneDX --json --out ./ ./mockhttp-extensions.sln
-
       - name: Publish package
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
@@ -62,23 +56,3 @@ jobs:
           asset_path: ${{ steps.package_release.outputs.package_filename }}
           asset_name: ${{ steps.package_release.outputs.package_name }}
           asset_content_type: application/zip
-
-      - name: Upload XML SBOM to github release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: bom.xml
-          asset_name: bom.xml
-          asset_content_type: application/xml
-
-      - name: Upload JSON SBOM to github release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: bom.json
-          asset_name: bom.json
-          asset_content_type: application/json
